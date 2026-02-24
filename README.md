@@ -1,6 +1,6 @@
 # Hi, I'm JC
 
-I am an Data Architect that likes to mix ETLs with AI and Search systems. I also build developer tools that make AI coding assistants smarter.
+I am a Data Architect that likes to mix ETLs with AI and Search systems. I also build developer tools that make AI coding assistants smarter.
 
 ## Projects
 
