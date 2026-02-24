@@ -9,9 +9,9 @@ Graph-powered code intelligence for AI assistants. Builds a knowledge graph of y
 
 [![npm](https://img.shields.io/npm/v/codeseeker?label=npm&color=blue)](https://www.npmjs.com/package/codeseeker)
 
-```
+`
 curl -fsSL https://raw.githubusercontent.com/jghiringhelli/codeseeker/master/scripts/install.sh | sh
-```
+`
 
 ---
 
@@ -20,10 +20,10 @@ MCP server that generates production-grade engineering standards (SOLID, testing
 
 [![npm](https://img.shields.io/npm/v/forgecraft-mcp?label=npm&color=blue)](https://www.npmjs.com/package/forgecraft-mcp)
 
-```
+`
 claude mcp add forgecraft -- npx -y forgecraft-mcp
-```
+`
 
 ---
 
-**Tech:** TypeScript, Node.js, MCP (Model Context Protocol), Knowledge Graphs
+**Tech:** TypeScript | Node.js | MCP (Model Context Protocol) | Knowledge Graphs
