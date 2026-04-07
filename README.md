@@ -8,6 +8,8 @@ In 2026 I published **Generative Specification** — a programming discipline fo
 → **Methodology hub:** [genspec.dev](https://genspec.dev)
 → **Experiments + quality gates:** [github.com/jghiringhelli/generative-specification](https://github.com/jghiringhelli/generative-specification)
 
+The language-layer implementation of these ideas is [Loom](https://github.com/jghiringhelli/loom) — an AI-native formal language where every construct traces to a published theorem.
+
 ---
 
 ## Projects
@@ -25,6 +27,20 @@ Production-grade engineering standards for AI coding assistants. Generates tailo
 ```bash
 npx forgecraft-mcp setup .
 ```
+
+### [Chronicle MCP](https://github.com/jghiringhelli/chronicle-mcp)
+
+Persistent, tiered AI memory that survives context resets — for Claude, GitHub Copilot, Cursor, and any MCP-compatible assistant. Five cognitive memory types (Semantic, Episodic, Procedural, Architectural, Preference), automatic tier promotion, decay, triggers, and optional Railway Postgres sync for cross-machine memory.
+
+[![npm](https://img.shields.io/npm/v/chronicle-mcp?label=npm&color=blue)](https://www.npmjs.com/package/chronicle-mcp)
+
+```bash
+npx -y chronicle-mcp
+```
+
+### [Loom](https://github.com/jghiringhelli/loom)
+
+An AI-native formal language. Write a specification; Loom compiles it to Rust, TypeScript, Python, OpenAPI, and Terraform simultaneously — each output carrying Hoare contracts, type-level security labels, session type protocols, and differential privacy annotations. Every construct in the language traces to a published theorem between 350 BCE and 2011. The annotation burden that blocked the formal tradition for decades is gone. The tradition activates.
 
 ### [CodeSeeker](https://github.com/jghiringhelli/codeseeker)
 
